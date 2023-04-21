@@ -1,0 +1,14 @@
+{
+  "name": "lyt",
+  "version": "1.0.0",
+  "description": "lyt-unit-test",
+  "main": "./src/lyt.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manish Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
+}
