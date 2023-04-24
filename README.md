@@ -3,7 +3,8 @@ lyt a unit test module
 
 ## Example
 ```javascript
-import {describe, it, expect, beforeEach, afterEach} from "lyt";
+import lytTest from "lyt";
+const {describe, it, expect, beforeEach, afterEach} = lytTest;
 
 describe("Suite", function(){
     beforeEach(function(){
@@ -16,5 +17,16 @@ describe("Suite", function(){
     it("Spec", function(){
         expect(1).toBe(1)
     });
+    
+    xit("skipped Spec", function(){
+        expect(1).toBe(1)
+    });
+});
+
+xdescribe("Skipped Suite", function(){
+    // this spec willbe be skipped as well
+    it("spec", function(){
+        expect(1).toBe(1);
+    })
 });
 ```
