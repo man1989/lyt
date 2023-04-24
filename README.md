@@ -1,6 +1,11 @@
 # lyt
 lyt a unit test module
 
+## Installation
+```
+  npm i  https://github.com/man1989/lyt.git
+```
+
 ## Example
 ```javascript
 import lytTest from "lyt";
