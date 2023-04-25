@@ -63,9 +63,9 @@ class Lyt {
     }
 
     #executeSpecs(parent) {
-        let failedMessage = "";
         if (parent.its && parent.its.length) {
             for (let i = 0; i < parent.its.length; i++) {
+                let failedMessage = "";
                 let it = parent.its[i];
                 this.#parent.stack.push(it);
                 if(!it.skipped){
